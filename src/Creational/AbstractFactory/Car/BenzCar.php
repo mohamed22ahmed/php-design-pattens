@@ -1,6 +1,6 @@
 <?php
 
-namespace src\AbstractFactory;
+namespace src\Creational\AbstractFactory\Car;
 
 class BenzCar implements CarInterface
 {
