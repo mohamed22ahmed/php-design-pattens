@@ -3,8 +3,11 @@ namespace src\Creational\Singelton;
 
 class DBConnection
 {
+    // Lazy Instantiation
     private static $connectionObj = null;
-    private static $operations = [];
+
+    // Early Instantiation
+    // private static $operations = new DBConnection();
 
     private function __construct(){
         
